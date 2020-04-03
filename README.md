@@ -14,9 +14,7 @@ Welcome to this awesome hacking MMORPG
 
 <img src="./screenshots/hack-sucessful.png">
 
-<img src="./screenshots/Hacking in progress.png">
-
-<img src="./screenshots/arcade.png">
+<img src="./screenshots/Hack-players.png">
 
 <img src="./screenshots/Wanted-list.png">
 
@@ -28,8 +26,7 @@ Welcome to this awesome hacking MMORPG
 
 <img src="./screenshots/Hideout.png">
 
-<img src="./screenshots/Hack-players.png">
-
-<img src="./screenshots/Hack-failed.png">
-
 <img src="./screenshots/Forum.png">
+
+<img src="./screenshots/arcade.png">
+
