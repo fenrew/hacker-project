@@ -29,6 +29,7 @@ passport.use(
             passwordField: 'password',
         },
         function(email, password, done) {
+            console.log(email, password, "HELLO")
             User.findOne({ email }, function(err, user) {
                 if (err) {
                     return done(err)

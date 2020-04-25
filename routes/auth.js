@@ -12,7 +12,7 @@ router.get('/sign-up', (req, res, next) => {
 //user sign-up
 router.post('/sign-up', (req, res, next) => {
     const { email, password } = req.body
-
+    console.log(email, "SIGNED UP")
     const encrypted = bcrypt.hashSync(password, 10)
 
     new User({ email, password: encrypted })
@@ -31,6 +31,7 @@ router.post('/sign-up', (req, res, next) => {
                 return res.render('sign-up', { error: 'user exists already' })
             }
             console.error(err)
+            console.log("ERROR SOMETHIGN WENT WRONG")
             res.send('something went wrong')
         })
 })
