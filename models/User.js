@@ -26,7 +26,6 @@ const userSchema = new Schema(
     //Character information
     name: {
       type: String,
-      unique: true
     },
     alliance: {
       type: String,

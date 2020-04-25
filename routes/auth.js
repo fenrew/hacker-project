@@ -12,7 +12,6 @@ router.get('/sign-up', (req, res, next) => {
 //user sign-up
 router.post('/sign-up', (req, res, next) => {
     const { email, password } = req.body
-    console.log(email, "SIGNED UP")
     const encrypted = bcrypt.hashSync(password, 10)
 
     new User({ email, password: encrypted })
